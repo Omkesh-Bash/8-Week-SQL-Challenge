@@ -21,13 +21,13 @@ A collection of end-to-end SQL case studies from Danny Ma's **[8-Week SQL Challe
 
 ## 📂 Case Study Tracker
 
-|  #  | Case Study                 | Business Focus                                        |     Status    | Solutions Link                                                        |
-| :-: | :------------------------- | :---------------------------------------------------- | :-----------: | :-------------------------------------------------------------------- |
-|  1  | **Danny's Diner**          | Customer spending, visiting patterns & loyalty points |  🟢 Complete  | [View Case Study](./Case%20Study%201%20-%20Danny's%20Diner/README.md) |
-|  2  | **Pizza Runner**           | Delivery metrics, runner efficiency & operations      | ⚪ In Progress | *Upcoming*                                                            |
-|  3  | **Foodie-Fi**              | Subscription churn, onboarding & payment analysis     |   ⚪ Backlog   | *Upcoming*                                                            |
-|  4  | **Data Bank**              | Customer transactions, data allocation & storage      |   ⚪ Backlog   | *Upcoming*                                                            |
-|  5  | **Data Mart**              | Sales impact analysis & cleaning time-series data     |   ⚪ Backlog   | *Upcoming*                                                            |
+|  #  | Case Study                 | Business Focus                                        |     Status    | Case Study & Solutions                                                                                                                                                                                                                                          |
+| :-: | :------------------------- | :---------------------------------------------------- | :-----------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|  1  | **Danny's Diner**          | Customer spending, visiting patterns & loyalty points |  🟢 Complete  | [📖 README](./Case%20Study%201%20-%20Danny's%20Diner/README.md) • [🛠️ setup.sql](./Case%20Study%201%20-%20Danny's%20Diner/setup.sql) • [💻 solutions.sql](./Case%20Study%201%20-%20Danny's%20Diner/solutions.sql) |
+|  2  | **Pizza Runner**           | Delivery metrics, runner efficiency & operations      | ⚪ In Progress | *Upcoming*                                                                                                                                                                                                                      |
+|  3  | **Foodie-Fi**              | Subscription churn, onboarding & payment analysis     |   ⚪ Backlog   | *Upcoming*                                                                                                                                                                                                                      |
+|  4  | **Data Bank**              | Customer transactions, data allocation & storage      |   ⚪ Backlog   | *Upcoming*                                                                                                                                                                                                                      |
+|  5  | **Data Mart**              | Sales impact analysis & cleaning time-series data     |   ⚪ Backlog   | *Upcoming*                                                                                                                                                                                                                      |
 |  6  | **Clique Bait**            | E-commerce funnel, campaign conversion & tracking     |   ⚪ Backlog   | *Upcoming*                                                            |
 |  7  | **Balanced Tree Clothing** | Retail sales, product revenue & transaction analysis  |   ⚪ Backlog   | *Upcoming*                                                            |
 |  8  | **Fresh Segments**         | Customer interest metrics & composition analysis      |   ⚪ Backlog   | *Upcoming*                                                            |
@@ -73,11 +73,11 @@ cd "Case Study 1 - Danny's Diner"
 
 ### 3. Set up the database
 
-Run `setup.sql` in your local PostgreSQL terminal or client, such as **DBeaver** or **psql**, to initialize the database schema and populate the tables.
+Run [`setup.sql`](./Case%20Study%201%20-%20Danny's%20Diner/setup.sql) in your local PostgreSQL terminal or client, such as **DBeaver** or **psql**, to initialize the database schema and populate the tables.
 
 ### 4. Execute the solutions
 
-Run `solutions.sql` to execute the queries and verify the expected outputs.
+Run [`solutions.sql`](./Case%20Study%201%20-%20Danny's%20Diner/solutions.sql) to execute the queries and verify the expected outputs.
 
 ```bash
 psql -d your_database -f setup.sql
